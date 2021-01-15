@@ -1,0 +1,50 @@
+.navbar{
+    min-height: 80px; 
+    
+}
+.navbar-expand{
+    justify-content: center !important;
+  
+}
+#title{
+    position: relative;
+    top: 7px;
+   
+}
+#wave{
+    position: relative;
+    top: 7px;
+    height: 85px;
+}
+#nav-button{
+    width: 87px;
+    position: absolute;
+    height: 87px;
+    top: 0px;
+    background-color: black;
+    left: 0px;
+    border: 0px;
+    z-index: 1001;
+    display: block;
+
+}
+#nav-button span{
+    background: white;
+    width: 31px;
+    display: block;
+    margin: 6px auto;
+    height: 4px;
+  
+    
+}
+
+
+.imageFrame{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 3%;
+
+}
+
+
