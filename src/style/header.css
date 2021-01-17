@@ -1,51 +1,64 @@
 .navbar{
-    min-height: 80px; 
+    height: 80px;
+    border:2px solid black;
+    padding-left: 0;
     
 }
 .navbar-expand{
-    justify-content: center !important;
-  
+    padding-left: 0;
 }
+
 #title{
-    position: relative;
-    top: 7px;
-   
-}
-#wave{
-    position: relative;
-    top: 7px;
-    height: 85px;
-    margin-left: 70px;
-}
-#nav-button{
-    width: 87px;
-    position: absolute;
-    height: 87px;
-    top: 0px;
-    background-color: black;
-    left: 0px;
-    border: 0px;
-    z-index: 1001;
-    display: block;
+    margin-right: auto;
+
 
 }
+#nav-button{
+    background-color: black;
+    margin-right: auto;
+    height: 100%;
+    border: 0px;
+    width: 87px;
+    z-index: 1001;
+
+}
+#nav-button:hover{
+    border:2.5px solid white;
+}
+
 #nav-button span{
+
     background: white;
     width: 31px;
     display: block;
     margin: 6px auto;
-    height: 4px;
-  
+    height: 4px;    
     
 }
+@media only screen and (max-width:900px){
+    #nav-button{
+        width: 50px !important;
+    }
+    .navbar{
+        height: 50px;
+    }
+    #wave{
+        display: none;
+    }
+    .navbar .navbar-expand .navbar-light .bg-light{
+        margin-top: 10px !important;
+    }
+    .video{
+        padding-top: 50px !important;
+        max-width: 100% !important;
+        width: 100% !important;
+        margin: auto;
+           padding-top: 150px;
+    }
 
-
-.imageFrame{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin-right: 3%;
 
 }
+
+
 
 
